@@ -1,7 +1,7 @@
 import socket
 import os
 # host to listen on
-host = "192.168.0.196"
+host = "192.168.1.1"
 # create a raw socket and bind it to the public interface
 if os.name == "nt":
   socket_protocol = socket.IPPROTO_IP
